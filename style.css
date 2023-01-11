@@ -1,4 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+header #logo a {
+  font-size: 1.5rem;
+  color: #6070ff;
+}
+
+header #menu ul a img {
+  width: 40px;
+  height: 40px;
 }
